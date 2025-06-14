@@ -18,7 +18,7 @@ WITH calculated_turnover AS(
         names n ON p.ticker = n.ticker -- join with names table using ticker as a key
     GROUP BY 
         p.date, p.ticker, n.name
-)
+),
 
 -- ranking CTE
 ranked_turnover AS (

@@ -1,3 +1,6 @@
+DROP TABLE IF EXISTS prices;
+DROP TABLE IF EXISTS names;
+
 CREATE TABLE prices (
     date DATE, 
     ticker TEXT,
@@ -5,11 +8,12 @@ CREATE TABLE prices (
     price INTEGER
 );
 
-INSERT INTO prices (date, tickcer, volume, price) VALUES
+INSERT INTO prices (date, ticker, volume, price) VALUES
 ('2020-01-01', 'MSFT', 232592, 323),
 ('2020-01-01', 'IBM', 293455, 134),
 ('2020-01-01', 'AAPL', 123456, 188),
 ('2020-01-02', 'AAPL', 123456, 188),
+('2020-01-02', 'MSFT', 123456, 188),
 ('2020-01-02', 'NFLX', 100000, 223);
 
 CREATE TABLE names (
