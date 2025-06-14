@@ -4,7 +4,7 @@
 This script computes the **top 3 companies per day** based on **turnover**, defined as:
 $$turnover = price \times volume$$
 
-## Instructions in running the script
+## Instructions for running the script
 ### 1. Enter the PostgreSQL shall:
 ```bash
 psql -U your_username -d temasek_test
@@ -23,16 +23,30 @@ Inside psql, run:
 \i Question_1/turnover_query.sql
 ```
 You should be able to see expected output:
-    date    | rank |              name               | turnover 
-------------+------+---------------------------------+----------
- 2020-01-01 |    1 | Microsoft Corp                  | 75127216
- 2020-01-01 |    2 | International Business Machines | 39322970
- 2020-01-01 |    3 | Apple Inc                       | 23209728
- 2020-01-02 |    1 | Microsoft Corp                  | 23209728
- 2020-01-02 |    2 | Apple Inc                       | 23209728
- 2020-01-02 |    3 | Netflix                         | 22300000
+| date       | rank | name                            | turnover   |
+|------------|------|----------------------------------|------------|
+| 2020-01-01 | 1    | Microsoft Corp                   | 75127216   |
+| 2020-01-01 | 2    | International Business Machines  | 39322970   |
+| 2020-01-01 | 3    | Apple Inc                        | 23209728   |
+| 2020-01-02 | 1    | Microsoft Corp                   | 23209728   |
+| 2020-01-02 | 2    | Apple Inc                        | 23209728   |
+| 2020-01-02 | 3    | Netflix                          | 22300000   |
+
 (6 rows)
 
+# Question 2 – Moving Average Calculator (Python)
+This script calculates the M-day moving average of a time series of stock prices using an efficient sliding window algorithm.
+
+## Instructions for running the script
+In terminal, run ``` python Question_2/q2_test_cases.py  ``` in the project root directory.
+
+You are expected to see ```All test cases passed!```
+
+Test cases covered include:
+* Regular moving average with multiple windows
+* Edge case with window size 1 and equal to list length
+* Invalid cases (e.g., M = 0, M > N)
+* Floating-point output accuracy
 
 ## Author
 Lu Xixun
