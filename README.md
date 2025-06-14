@@ -48,6 +48,38 @@ Test cases covered include:
 * Invalid cases (e.g., M = 0, M > N)
 * Floating-point output accuracy
 
+# Question 3 - Performance Analytics
+This repository contains a Python-based analysis of a portfolio manager’s investments in AAPL and TSLA from 2011 to 2020. The analysis includes calculating IRR, TWR, and TVPI, as well as generating daily portfolio positions and concluding insights about investment performance.
+
+## Features Implemented
+
+### Part (a) – Performance Metrics
+
+- **IRR (Internal Rate of Return)** using custom Newton-Raphson implementation with date adjustment (XIRR style)
+- **TWR (Time-Weighted Return)** neutralizing the impact of cash injections/withdrawals
+- **TVPI (Total Value to Paid-In)** calculated using total invested, divested, and residual holdings
+
+### Part (b) – Daily Portfolio Tracking
+
+- Tracks **daily shares held**, **cashflows**, and **market value**
+- Generates a timeline of **portfolio evolution** and transaction impact
+
+### Part (c) – Performance Conclusion
+
+- Compares performance of AAPL vs TSLA
+- Assesses manager's market timing and stock selection
+- Calculates portfolio-level allocation and return summary
+
+## How to run the script
+### 1. Install Python dependencies
+```bash
+pip install pandas numpy openpyxl
+```
+Run all cells in the Jupyeter notebook. Check the output at the end of each task. View as a scrollable element or open in a text editor for the full result.
+
+## Expected Output
+
+
 ## Author
 Lu Xixun
 Temasek Performance Analytics
