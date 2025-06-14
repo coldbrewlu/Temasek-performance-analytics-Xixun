@@ -1,4 +1,4 @@
-# temasek-performance-analytics-Xixun
+# Temasek-performance-analytics-Xixun
 
 # Question 1 - Top 3 Turnover by Day (PostgreSQL)
 This script computes the **top 3 companies per day** based on **turnover**, defined as:
@@ -78,9 +78,14 @@ pip install pandas numpy openpyxl
 Run all cells in the Jupyeter notebook. Check the output at the end of each task. View as a scrollable element or open in a text editor for the full result.
 
 ## Expected Output
+<img width="429" alt="Screenshot 2025-06-15 at 1 05 38 AM" src="https://github.com/user-attachments/assets/71ea28a3-0003-489d-bd1e-5d65a813878f" />
+<img width="379" alt="Screenshot 2025-06-15 at 1 06 25 AM" src="https://github.com/user-attachments/assets/f224cfc5-b701-44e9-b5ef-067710d9f343" />
+
 
 
 ## Author
 Lu Xixun
+
 Temasek Performance Analytics
+
 June 2025
