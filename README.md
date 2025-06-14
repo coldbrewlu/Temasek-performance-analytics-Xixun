@@ -1,7 +1,7 @@
 # Temasek-performance-analytics-Xixun
 
 # Question 1 - Top 3 Turnover by Day (PostgreSQL)
-This script computes the **top 3 companies per day** based on **turnover**, defined as:
+This script computes the top 3 companies per day based on turnover, defined as:
 $$turnover = price \times volume$$
 
 ## Instructions for running the script
