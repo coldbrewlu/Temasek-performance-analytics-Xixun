@@ -49,7 +49,7 @@ Test cases covered include:
 * Floating-point output accuracy
 
 # Question 3 - Performance Analytics
-This repository contains a Python-based analysis of a portfolio manager’s investments in AAPL and TSLA from 2011 to 2020. The analysis includes calculating IRR, TWR, and TVPI, as well as generating daily portfolio positions and concluding insights about investment performance.
+This section contains a Python-based analysis of a portfolio manager’s investments in AAPL and TSLA from 2011 to 2020. The analysis includes calculating IRR, TWR, and TVPI, as well as generating daily portfolio positions and concluding insights about investment performance.
 
 ## Features Implemented
 
